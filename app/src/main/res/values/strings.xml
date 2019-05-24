@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Appcup</string>
+    <string name="app_name">COPA AMÉRICA 2019</string>
+    <string name="logo">Logo</string>
+    <string name="positions_button">Positions</string>
+    <string name="matches_button">Matches</string>
+    <string name="searchplayer_button">Search Player</string>
+    <string name="news_button">News</string>
+
 </resources>
