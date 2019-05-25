@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">COPA AMÉRICA 2019</string>
+    <string name="logo">Logo</string>
+    <string name="positions_button">Posiciones</string>
+    <string name="matches_button">Encuentros</string>
+    <string name="searchplayer_button">Buscar Jugador</string>
+    <string name="news_button">Noticias</string>
+
+</resources>
