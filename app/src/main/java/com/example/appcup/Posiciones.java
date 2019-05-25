@@ -1,13 +1,19 @@
 package com.example.appcup;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.TabActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TabHost;
 
-public class Posiciones extends AppCompatActivity {
+import com.example.appcup.GruposActivity;
+import com.example.appcup.LlavesActivity;
 
+class EncuentrosActivity extends TabActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_posiciones);
+    public void onCreate(Bundle savedInsteanceState){
+        super.onCreate(savedInsteanceState);
+        TabHost host = getTabHost();
+        host.addTab(host.newTabSpec("tab_1").setIndicator("Grupos").setContent(new Intent(this, GruposActivity.class)));
+        host.addTab(host.newTabSpec("tab_2").setIndicator("Fixture").setContent(new Intent(this, LlavesActivity.class)));
     }
 }
