@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#040834"
-    tools:context=".MainActivity" >
+    android:background="@drawable/backgroundgrey2"
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button2"
@@ -14,9 +14,9 @@
         android:layout_height="80dp"
         android:layout_marginStart="92dp"
         android:layout_marginLeft="92dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="60dp"
         android:layout_marginBottom="8dp"
-        android:background="#5DC728"
+        android:background="#D1739F01"
         android:text="@string/positions_button"
         android:textColor="#FFFFFF"
         android:textStyle="bold|italic"
@@ -32,15 +32,14 @@
         android:layout_height="80dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="92dp"
         android:layout_marginRight="92dp"
-        android:background="#FCB60A"
+        android:background="#D2FCB60A"
         android:text="@string/matches_button"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#FFFFFF"
-        android:textColorHighlight="#EC0606"
         android:textColorHint="#00F00909"
         android:textColorLink="#00F00606"
         android:textIsSelectable="false"
@@ -58,7 +57,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:background="#FCB60A"
+        android:background="#D2FCB60A"
         android:text="@string/searchplayer_button"
         android:textColor="#FFFFFF"
         android:textStyle="bold|italic"
@@ -72,10 +71,24 @@
         android:layout_width="110dp"
         android:layout_height="80dp"
         android:layout_marginTop="8dp"
-        android:background="#5DC728"
+        android:background="#D1739F01"
         android:text="@string/news_button"
         android:textColor="#FFFFFF"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="@+id/button3"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#000F49"
+        android:text="Next Matches"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        tools:layout_editor_absoluteX="-16dp" />
+
 </android.support.constraint.ConstraintLayout>
