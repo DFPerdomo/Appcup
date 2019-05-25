@@ -8,7 +8,7 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/posicionesButton"
         style="@android:style/Widget.Holo.Light.Button"
         android:layout_width="110dp"
         android:layout_height="80dp"
@@ -20,13 +20,13 @@
         android:text="@string/positions_button"
         android:textColor="#FFFFFF"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintBottom_toBottomOf="@+id/matchButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/matchButton"
         style="@android:style/Widget.Holo.Light.Button"
         android:layout_width="110dp"
         android:layout_height="80dp"
@@ -47,11 +47,11 @@
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/posicionesButton"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/searchPlayerButton"
         style="@android:style/Widget.Holo.Light.Button"
         android:layout_width="110dp"
         android:layout_height="80dp"
@@ -62,12 +62,12 @@
         android:text="@string/searchplayer_button"
         android:textColor="#FFFFFF"
         android:textStyle="bold|italic"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintEnd_toStartOf="@+id/newsButton"
+        app:layout_constraintStart_toStartOf="@+id/posicionesButton"
+        app:layout_constraintTop_toBottomOf="@+id/posicionesButton" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/newsButton"
         style="@android:style/Widget.Holo.Light.Button"
         android:layout_width="110dp"
         android:layout_height="80dp"
@@ -76,6 +76,6 @@
         android:text="@string/news_button"
         android:textColor="#FFFFFF"
         android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintEnd_toEndOf="@+id/matchButton"
+        app:layout_constraintTop_toBottomOf="@+id/matchButton" />
 </android.support.constraint.ConstraintLayout>
