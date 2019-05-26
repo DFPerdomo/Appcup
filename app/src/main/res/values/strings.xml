@@ -3,7 +3,9 @@
     <string name="logo">Logo</string>
     <string name="positions_button">Positions</string>
     <string name="matches_button">Matches</string>
-    <string name="searchplayer_button">Search Player</string>
+    <string name="searchplayer_button">Players</string>
     <string name="news_button">News</string>
-
+    <string name="Groups_Tabs">Groups</string>
+    <string name="Fixture">Keys</string>
+    <string name="Hello">Hello this is the firs tab</string>
 </resources>
