@@ -8,7 +8,7 @@ import android.widget.TabHost;
 import com.example.appcup.GruposActivity;
 import com.example.appcup.LlavesActivity;
 
-class EncuentrosActivity extends TabActivity {
+class Posiciones extends TabActivity {
     @Override
     public void onCreate(Bundle savedInsteanceState){
         super.onCreate(savedInsteanceState);
