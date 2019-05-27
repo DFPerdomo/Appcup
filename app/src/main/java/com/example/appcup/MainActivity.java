@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         positionsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent positions= new Intent(MainActivity.this, EncuentrosActivity.class);
+                Intent positions= new Intent(MainActivity.this, PosicionesActivity.class);
                 startActivity(positions);
             }
         });

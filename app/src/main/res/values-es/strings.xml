@@ -3,7 +3,9 @@
     <string name="logo">Logo</string>
     <string name="positions_button">Posiciones</string>
     <string name="matches_button">Encuentros</string>
-    <string name="searchplayer_button">Buscar Jugador</string>
+    <string name="searchplayer_button">Jugadores</string>
     <string name="news_button">Noticias</string>
-
+    <string name="Groups_Tabs">Grupos</string>
+    <string name="Fixture">Llaves</string>
+    <string name="Hello">Hola, esta es la primera pestaña</string>
 </resources>

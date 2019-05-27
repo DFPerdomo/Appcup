@@ -4,91 +4,105 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundgrey2"
-    tools:context=".MainActivity">
+    android:background="#040834"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
 
-    <Button
-        android:id="@+id/button2"
-        style="@android:style/Widget.Holo.Light.Button"
-        android:layout_width="110dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginLeft="92dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="8dp"
-        android:background="#D1739F01"
-        android:text="@string/positions_button"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/button3"
+    <LinearLayout
+        android:layout_width="128dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginBottom="351dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.075">
 
-    <Button
-        android:id="@+id/button3"
-        style="@android:style/Widget.Holo.Light.Button"
-        android:layout_width="110dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginRight="92dp"
-        android:background="#D2FCB60A"
-        android:text="@string/matches_button"
-        android:textAllCaps="false"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#00F00909"
-        android:textColorLink="#00F00606"
-        android:textIsSelectable="false"
-        android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="26dp">
 
-    <Button
-        android:id="@+id/button4"
-        style="@android:style/Widget.Holo.Light.Button"
-        android:layout_width="110dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:background="#D2FCB60A"
-        android:text="@string/searchplayer_button"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold|italic"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+            <Button
+                android:id="@+id/posicionesButton"
+                style="@android:style/Widget.Holo.Light.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#5DC728"
+                android:text="@string/positions_button"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="186dp" />
 
-    <Button
-        android:id="@+id/button5"
-        style="@android:style/Widget.Holo.Light.Button"
-        android:layout_width="110dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="8dp"
-        android:background="#D1739F01"
-        android:text="@string/news_button"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+            <Button
+                android:id="@+id/matchButton"
+                style="@android:style/Widget.Holo.Light.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FCB60A"
+                android:text="@string/matches_button"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#EC0606"
+                android:textColorHint="#00F00909"
+                android:textColorLink="#00F00606"
+                android:textIsSelectable="false"
+                android:textSize="12sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="222dp"
+                tools:layout_editor_absoluteY="174dp" />
+        </LinearLayout>
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:background="#000F49"
-        android:text="Next Matches"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
-        tools:layout_editor_absoluteX="-16dp" />
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="81dp">
 
+            <Button
+                android:id="@+id/searchPlayerButton"
+                style="@android:style/Widget.Holo.Light.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FCB60A"
+                android:gravity="center_vertical"
+                android:text="@string/searchplayer_button"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold|italic"
+                android:typeface="normal"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/newsButton"
+                style="@android:style/Widget.Holo.Light.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#5DC728"
+                android:text="@string/news_button"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="262dp"
+                tools:layout_editor_absoluteY="259dp" />
+        </LinearLayout>
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

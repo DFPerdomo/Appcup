@@ -3,22 +3,9 @@
     <string name="logo">Logo</string>
     <string name="positions_button">Positions</string>
     <string name="matches_button">Matches</string>
-    <string name="searchplayer_button">Search Player</string>
+    <string name="searchplayer_button">Players</string>
     <string name="news_button">News</string>
-    <string name="first_date">Friday, June 14</string>
-    <string name="second_date">Saturday, June 15</string>
-    <string name="third_date">Sunday, June 16</string>
-    <string name="quarter_date">Monday, June 17</string>
-    <string name="fifth_date">Tuesday, June 18</string>
-    <string name="sixth_date">Wednesday, June 19</string>
-    <string name="seventh_date">Thursday, June 20</string>
-    <string name="eighth_date">Friday, June 21</string>
-    <string name="ninth_date">Saturday, June 22</string>
-    <string name="tenth_date">Sunday, June 23</string>
-    <string name="eleventh_date">Monday, June 24</string>
-    <string name="quarter_final_date1">Thursday, June 27</string>
-    <string name="quarter_final_date2">Friday, June 28</string>
-    <string name="quarter_final_date3">Saturday, June 29</string>
-
-
+    <string name="Groups_Tabs">Groups</string>
+    <string name="Fixture">Keys</string>
+    <string name="Hello">Hello this is the firs tab</string>
 </resources>
