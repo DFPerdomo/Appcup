@@ -8,4 +8,5 @@
     <string name="Groups_Tabs">Grupos</string>
     <string name="Fixture">Llaves</string>
     <string name="Hello">Hola, esta es la primera pestaña</string>
+    <string name="DateOfMatch">Fecha Del Encuentro</string>
 </resources>

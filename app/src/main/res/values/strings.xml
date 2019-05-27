@@ -8,4 +8,5 @@
     <string name="Groups_Tabs">Groups</string>
     <string name="Fixture">Keys</string>
     <string name="Hello">Hello this is the firs tab</string>
+    <string name="DateOfMatch">Date Of Match</string>
 </resources>
